@@ -36,7 +36,7 @@ PATCH /api/rider/orders/:id/status: Update delivery status
 Installation
 Clone the repository
 
-git clone https://github.com/yourusername/fan-ac-ecommerce.git
+git clone [https://github.com/yourusername/fan-ac-ecommerce.git](https://github.com/saurabh12nxf/EcommerceFor-fan-Ac.git)
 cd fan-ac-ecommerce
 Install dependencies
 
