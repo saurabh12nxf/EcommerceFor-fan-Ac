@@ -1,0 +1,25 @@
+{
+    "name": "ecommerce-backend",
+    "version": "1.0.0",
+    "main": "server/index.js",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development nodemon server/index.js",
+        "start": "cross-env NODE_ENV=production node server/index.js"
+    },
+    "dependencies": {
+        "connect-pg-simple": "^9.0.1",
+        "dotenv": "^16.5.0",
+        "express": "^4.18.2",
+        "express-session": "^1.18.1",
+        "memorystore": "^1.6.7",
+        "mongodb": "^5.8.1",
+        "mongoose": "^7.5.0",
+        "passport": "^0.6.0",
+        "passport-google-oauth20": "^2.0.0",
+        "zod": "^3.22.2"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "nodemon": "^3.0.1"
+    }
+}
